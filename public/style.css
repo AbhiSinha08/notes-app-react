@@ -555,14 +555,6 @@ video {
   margin: 1rem;
 }
 
-.mt-0{
-  margin-top: 0px;
-}
-
-.mt-2{
-  margin-top: 0.5rem;
-}
-
 .inline-block{
   display: inline-block;
 }
@@ -579,36 +571,8 @@ video {
   width: 100vw;
 }
 
-.max-w-\[20\%\]{
-  max-width: 20%;
-}
-
-.max-w-5xl{
-  max-width: 64rem;
-}
-
-.max-w-3xl{
-  max-width: 48rem;
-}
-
-.max-w-xl{
-  max-width: 36rem;
-}
-
-.max-w-lg{
-  max-width: 32rem;
-}
-
 .max-w-md{
   max-width: 28rem;
-}
-
-.max-w-sm{
-  max-width: 24rem;
-}
-
-.flex-shrink{
-  flex-shrink: 1;
 }
 
 .flex-grow{
@@ -619,8 +583,8 @@ video {
   flex-direction: column;
 }
 
-.overflow-scroll{
-  overflow: scroll;
+.flex-wrap{
+  flex-wrap: wrap;
 }
 
 .overflow-y-scroll{
@@ -631,9 +595,9 @@ video {
   border-radius: 0.5rem;
 }
 
-.bg-gray-200{
+.bg-gray-100{
   --tw-bg-opacity: 1;
-  background-color: rgb(229 231 235 / var(--tw-bg-opacity));
+  background-color: rgb(243 244 246 / var(--tw-bg-opacity));
 }
 
 .bg-blue-500{
@@ -641,35 +605,8 @@ video {
   background-color: rgb(59 130 246 / var(--tw-bg-opacity));
 }
 
-.bg-gray-100{
-  --tw-bg-opacity: 1;
-  background-color: rgb(243 244 246 / var(--tw-bg-opacity));
-}
-
-.bg-slate-200{
-  --tw-bg-opacity: 1;
-  background-color: rgb(226 232 240 / var(--tw-bg-opacity));
-}
-
-.bg-slate-100{
-  --tw-bg-opacity: 1;
-  background-color: rgb(241 245 249 / var(--tw-bg-opacity));
-}
-
-.bg-slate-200\/80{
-  background-color: rgb(226 232 240 / 0.8);
-}
-
-.bg-slate-200\/100{
-  background-color: rgb(226 232 240 / 1);
-}
-
 .bg-slate-200\/70{
   background-color: rgb(226 232 240 / 0.7);
-}
-
-.p-4{
-  padding: 1rem;
 }
 
 .py-2{
@@ -682,16 +619,6 @@ video {
   padding-bottom: 1.25rem;
 }
 
-.px-2{
-  padding-left: 0.5rem;
-  padding-right: 0.5rem;
-}
-
-.py-1{
-  padding-top: 0.25rem;
-  padding-bottom: 0.25rem;
-}
-
 .px-3{
   padding-left: 0.75rem;
   padding-right: 0.75rem;
@@ -699,18 +626,6 @@ video {
 
 .pl-6{
   padding-left: 1.5rem;
-}
-
-.pt-0{
-  padding-top: 0px;
-}
-
-.pt-1{
-  padding-top: 0.25rem;
-}
-
-.pb-2{
-  padding-bottom: 0.5rem;
 }
 
 .text-center{
@@ -730,25 +645,8 @@ video {
   line-height: 2.5rem;
 }
 
-.text-lg{
-  font-size: 1.125rem;
-  line-height: 1.75rem;
-}
-
 .text-xl{
   font-size: 1.25rem;
-  line-height: 1.75rem;
-}
-
-.leading-tight{
-  line-height: 1.25;
-}
-
-.leading-5{
-  line-height: 1.25rem;
-}
-
-.leading-7{
   line-height: 1.75rem;
 }
 
