@@ -6,4 +6,10 @@
 
 html {
     @apply font-sans-serif;
+    word-wrap: break-word;
+}
+
+body {
+    @apply bg-white;
+    background-image: url(http://www.transparenttextures.com/patterns/asfalt-dark.png);
 }

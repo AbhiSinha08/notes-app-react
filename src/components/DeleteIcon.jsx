@@ -1,0 +1,9 @@
+import React from 'react';
+
+const DeleteIcon = () => {
+    return (
+        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABmJLR0QA/wD/AP+gvaeTAAABiUlEQVRYhe2WvU5CQRCFvxhjI1ioEay18RUMFrYUPBe+jolSWoDPQKUdCkY7sBQLZgMZ9m+Weys9yWYzzOzM4ezu7IV/2HAA3AFvwFKNCdCXmNrQ9xTWo18ngYkUufb4OqyVqA3uX5b6t7Cn7Gfi8upCVv8SGMYI/FjYFyJLoVcJvKig4KXkevE5tQIOU5nbFRBwOaY+Z4jATOZWIvkQGCVizmT+8Dn3dyTQSfihIgVugS+gl1GwB3zKGkgokEvgCjgGuhkEusCJrNnMMfMF5x7C3C3ZXONynMv8biGgC1puhSZQpIAmYFEgtMZLIIQGq+axELsp9reK8/X+hfzWUPahhQDAXCVydjNC4EjsuSI+J4DQFsD62rSVHdsGLbc+xCYCoUNkIaAPsYlAyU0w3YBcApZeoLteS9lFBFySR1bteBxZM5aYB7U2qEDoMYJtGe+B00g8wJOKcep5u2CKQI7kI+JfONGHqAoCNxEfJJ5isB3CEiT7QAyuHVcxzG3YYVBB8UFp8b+BXyaIqXvhFcPjAAAAAElFTkSuQmCC" />
+    );
+}
+
+export default DeleteIcon;

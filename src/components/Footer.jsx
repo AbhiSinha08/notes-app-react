@@ -6,7 +6,8 @@ const Footer = () => {
     
     return (
         <div className='bg-gray-100 text-center py-2 text-gray-600'>
-            Copyright &copy; {year}
+            A Simple Notes App made with React
+            {/* Copyright &copy; {year} */}
         </div>
     );
 }
