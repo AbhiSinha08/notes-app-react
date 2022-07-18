@@ -1,16 +1,23 @@
-import React from "react";
+import React, { useState } from "react";
 import Note from "./Note";
 import Header from "./Header";
 import Footer from "./Footer";
-import notes from "../notes";
+import data from "../notes";
+import NewNote from "./NewNote";
 
-const App = () => (
+const App = () => {
+    const [notes, setNotes] = useState([...data]);
+
+    return (
     <div className="h-screen w-screen flex flex-col">
         <Header />
-        <div className="flex-grow overflow-y-scroll flex flex-wrap">
-            {notes.map(note => (
+        <NewNote onAdd={setNotes} />
+        <div className="flex-grow">
+            {notes.map((note, index) => (
                 <Note 
-                    key = {note.id}
+                    key = {index}
+                    id = {index}
+                    onDelete = {setNotes}
                     heading = {note.heading}
                     content = {note.content}
                 />
@@ -18,6 +25,7 @@ const App = () => (
         </div>
         <Footer />
     </div>
-);
+    );
+}
 
 export default App;
